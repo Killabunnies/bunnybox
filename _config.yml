@@ -143,8 +143,8 @@ chulapa-skin:
   skin         :  # Optional predefined skins
   autothemer    :  true # Bool: Use autotheming
   vars          :    
-    primary     : white #default ["#007bff"] - Bootstrap blue
-    link-color  : "#ee0000"
+    primary     : "#FFFFFF" #default ["#007bff"] - Bootstrap blue
+    secondary  : "#ee0000"
 
     
 # D. Jekyll Defaults and collections: see https://jekyllrb.com/
@@ -169,7 +169,7 @@ defaults:
     scope:
       path: ""
     values:
-      layout: "landingpage"
+      layout: "minimal"
       header_type: "base"
       include_on_search   : false
       cloudtag_url        : /tags #This is where the link on tags would redirect
