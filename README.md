@@ -16,6 +16,8 @@ You will clone this project and use it as template. You can fork this project an
 7. Returning to cmd, add the origin of your new repository with the command ``git remote add origin <SSH URL of my-game-name>``
 8. Now push the project to the new repository with the command ``git push --set-upstream origin master``
 
+If you use a Git Client like [GitHub Desktop](https://desktop.github.com/ "desktop.github.com"), [Fork](https://git-fork.com/ "git-fork.com") or [GitKraken](https://www.gitkraken.com/ "gitkraken.com"), after all the steps, you can "add an existing repository" to work with that program from now on. They will probably offer to initialize GitLFS (This is for working with large files), just say yes.
+
 Now we have the project cloned and ready to use, in the folder ``my-game-name``. We can open the project with Visual Studio Code, but first we must install the dependencies.
 
 You can install or update all dependencies with the command `npm install`. Also you can click with the right button of the mouse in the file `package.json` from the `NPM SCRIPTS` tab from the EXPLORER panel of VS Code and select `Run Install`.
